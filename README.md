@@ -11,6 +11,7 @@ The purpose of this project is to build a simple interactive day planner. It sho
 No installation required.
 
 ## Usage
+Folow this link: https://jnelson4004.github.io/challenge-5/
 Click on the desired hour block to enter data, then click the save icon to store said data.
 
 ## Support
