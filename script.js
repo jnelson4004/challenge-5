@@ -16,19 +16,31 @@ $(document).ready(function () {
   }); */
 
   var x = dayjs().format("HH");
+  console.log(x);
+
+  var y = document.querySelectorAll("cheese");
   
   function colorCode () {
-    if (x = card.property(class{})) {
-        $( "#row time-block" ).addClass("present");
+    if (x = y) {
+        $( "#row time-block" ).css(".present");
       }
-      else if(x < card.property(class{})) {
-          $( "#row time-block" ).addClass("future");
+      else if(x < y) {
+          $( "#row time-block" ).css( ".future" );
       }
-      else if(x > card.property(class{})) {
-        $( "#row time-block" ).addClass("past");
-      };
+      else if(x > y) {
+        $( "#row time-block" ).css( ".past" );
+      }
   };
-  
+
+  var textBox = document.querySelectorAll("#description");
+
+  function addData () {
+    saveBtn.addEventListener("click", function() {
+      textBox.innerHTML(save);
+    })
+  };
+
+
   
   
 });
