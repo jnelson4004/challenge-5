@@ -18,10 +18,15 @@ $(document).ready(function () {
   var x = dayjs().format("HH");
   
   function colorCode () {
-    if (x = div.property(class{})) {
-      $( "#saveBtn" ).on( "click", function() {
-        $( "#effect" ).addClass( "newClass", 1000, callback );
-      });
+    if (x = card.property(class{})) {
+        $( "#row time-block" ).addClass("present");
+      }
+      else if(x < card.property(class{})) {
+          $( "#row time-block" ).addClass("future");
+      }
+      else if(x > card.property(class{})) {
+        $( "#row time-block" ).addClass("past");
+      };
   };
   
   
